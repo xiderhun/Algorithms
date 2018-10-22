@@ -7,3 +7,9 @@ function numRandom (num) {
 }
 
 console.log(numRandom(5));
+
+//Same with arrow function.
+
+randomNum = (x) => Math.floor(Math.random() * x) + 1;
+
+console.log(randomNum(5));
